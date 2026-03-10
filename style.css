@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: lightgreen;
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  & ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+  }
+}
+
+main {
+  background-color: lightblue;
+  min-height: 500px;
+}
+
+footer {
+  min-height: 200px;
+  background-color: lightyellow;
+}
