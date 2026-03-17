@@ -26,3 +26,7 @@ footer {
   min-height: 200px;
   background-color: lightyellow;
 }
+
+h1 {
+    font-decoration: underline;
+}
